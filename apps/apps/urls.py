@@ -16,10 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from django.views.generic.base import RedirectView
-from .views import welcome
+from .views import welcome  , admin1
 
 urlpatterns = [
     path('' ,welcome , name='welcome' ),
+    path('me/' , admin1 , name = 'me'),
     path('admin/', admin.site.urls  ),
     path('gallery/', include('gallery.urls', namespace='gallery') , name='gallery'),
     path('test/' , include('my_test.urls' ) , name='my_test' ),

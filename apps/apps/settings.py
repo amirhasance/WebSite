@@ -134,6 +134,7 @@ SITE_KEY = "6LdpF_EUAAAAALFWtJppOHBzacIU_fe3fVBj2lLy"
 SECRET_KEY = "6LdpF_EUAAAAAMd29Jx520Gp9UF5k2aplaIlpU4D" 
 
 STATICFILES_DIRS = [
-	os.path.join(BASE_DIR, '../static/'),
+	os.path.join(BASE_DIR, 'static'),
+    # print(BASE_DIR + '../static/')
     
 ]

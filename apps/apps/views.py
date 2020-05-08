@@ -64,5 +64,8 @@ def get_bing_Image_url():
   return image_url
 
 
+from django.shortcuts import render
 
-
+def admin1(request , template_name='admin.html'):
+  
+  return render(request , template_name)

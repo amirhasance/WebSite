@@ -9,7 +9,20 @@ body, html {
   background-image: url("https://www.bing.com/th?id=OHR.AdelaideVineyard_ROW9638552129_1920x1080.jpg&amp;rf=LaDigue_1920x1080.jpg");
 
   /* Full height */
-  height: 10%; 
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.admin{ 
+  color: white;
+  /* The image used */
+  background-image: url("amir.jpg");
+
+  /* Full height */
+  height: 100%; 
 
   /* Center and scale the image nicely */
   background-position: center;
