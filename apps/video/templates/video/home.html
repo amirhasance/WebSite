@@ -1,0 +1,30 @@
+<center>
+<h2> videos </h2>
+<hr />
+<table>
+ 
+ {% for video in videos%}
+ <p>
+ 
+ <tr paddingTop=30px>
+ 
+  
+   <td> {{video.videoName}} </td>
+   <td><div> <video src={{video.videoFile.url}} width=400px height=200px controls> </video></div></td>
+   <td>
+   <p>
+   <a href="" >    Delete {{video.videoName}} </a>
+   
+   </p>
+   </td>
+  
+ </tr>
+ </p>
+ {% endfor %}
+
+</table>
+
+    <br/>
+    <hr/>
+    <a href="/video/new" >Upload New Video</a>
+</center>

@@ -1,0 +1,15 @@
+
+<center>
+<h1>
+this is form
+</h1>
+
+{% block content %}
+  <form method="post">
+    {% csrf_token %}
+
+    {{ form.as_p}}
+  </form>
+{% endblock %}
+
+</center>
