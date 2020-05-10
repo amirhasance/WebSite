@@ -18,11 +18,15 @@ body, html {
 }
 .admin{ 
   color: white;
+  font-weight: bold;
   /* The image used */
   background-image: url("amir.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 
   /* Full height */
   height: 100%; 
+
 
   /* Center and scale the image nicely */
   background-position: center;
